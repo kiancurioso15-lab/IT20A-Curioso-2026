@@ -18,3 +18,10 @@ class Piano extends MusicalInstrument {
     }
 }
 
+class Drum extends MusicalInstrument {
+    @Override
+    public void play() {
+        System.out.println("The drum produces rhythmic beats.");
+    }
+}
+
