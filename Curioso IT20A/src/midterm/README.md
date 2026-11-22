@@ -1,51 +1,67 @@
-Musical Instrument
+Java OOP Activities
 
-1. What the Program does
+1. Musical Instrument Program
 
-The program illustrates the sound made by various musical instruments.
+What the Program Does?
 
-Four classes are included in the program.
+The program shows the different sounds produced by musical instruments.
 
-Musical Instrument - this is the parent class.
+It contains four classes:
 
-Guitar - produces strumming sounds.
-
-Piano - Produces Melodies.
-
-Drum - produces beats.
-
-PolymorphismDemo - runs the program.
+- **MusicalInstrument** – Parent class.
+- **Guitar** – Produces strumming sounds.
+- **Piano** – Produces melodies.
+- **Drum** – Produces rhythmic beats.
+- **PolymorphismDemo** – Runs the program.
 
 2. Polymorphism
 
-Polymorphism involves a single method being able to do something in different ways.
+Polymorphism means one method can have different behaviors.
 
-Polymorphism in the program:
+In this program:
 
-Parent Class - MusicalInstrument
+- **Parent Class:** MusicalInstrument
+- **Child Classes:** Guitar, Piano, and Drum
+- **Overridden Method:** play()
 
-Child Class - Guitar, Piano and Drum
-
-Overridden Method - Play()
-
-Play() is overridden by each instrument.
+Each instrument has its own version of the `play()` method.
 
 3. Abstraction
 
-Abstraction involves hiding the details and showing the essential parts.
+Abstraction means hiding details and showing only important parts.
 
-In order to implement abstraction in the above program,
+To apply abstraction to this program:
 
-Abstract Class - MusicalInstrument
+- **Abstract Class:** MusicalInstrument
+- **Abstract Method:** play()
+- **Implementation:** Guitar, Piano, and Drum provide their own `play()` methods.
 
-Abstract Method - play()
+**Note:** The original MusicalInstrument program does not use abstraction yet.
 
-Implementation - Each of the Guitar, Piano and Drum have implemented play() method.
+---
 
-Note: There is no abstraction in the program at this stage.
+4. AbstractionDemo Program
 
-4. Comparison between Polymorphism and Abstraction
+What the Program Does
 
-Polymorphism - single method doing something in different ways.
+The program shows how different animals make sounds.
 
-Abstraction - Hiding of the details. Showing of the essential information.
+It contains three classes:
+
+- **Animal** – Abstract parent class.
+- **Dog** – Makes a barking sound.
+- **Cat** – Makes a meowing sound.
+
+How Abstraction Works
+
+- **Abstract Class:** Animal
+- **Abstract Method:** makeSound()
+- **Regular Method:** eat()
+- **Child Classes:** Dog and Cat
+
+The Dog and Cat classes provide their own implementation of the `makeSound()` method.
+
+5. Difference Between Polymorphism and Abstraction
+
+- **Polymorphism:** One method can have different behaviors.
+- **Abstraction:** Hides unnecessary details and shows important information.
