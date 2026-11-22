@@ -22,19 +22,19 @@ abstract class Animal {
     }
 }
 
-class Dog extends Animal {
+class Sheep extends Animal {
 
     @Override
     void makeSound() {
-        System.out.println("The dog says: Woof Woof!");
+        System.out.println("The Sheep says: Mee Mee!");
     }
 }
 
-class Cat extends Animal {
+class Buffalo extends Animal {
 
     @Override
     void makeSound() {
-        System.out.println("The cat says: Meow Meow!");
+        System.out.println("The Buffalo says:Moo Moo!");
     }
 }
 
@@ -42,17 +42,17 @@ public class AbstractionDemo {
 
     public static void main(String[] args) {
 
-        Animal dog = new Dog();
-        Animal cat = new Cat();
+        Animal Sheep = new Sheep();
+        Animal Buffalo = new Buffalo();
 
-        System.out.println("DOG:");
-        dog.makeSound();
-        dog.eat();
+        System.out.println("Sheep:");
+        Sheep.makeSound();
+        Sheep.eat();
 
         System.out.println();
 
-        System.out.println("CAT:");
-        cat.makeSound();
-        cat.eat();
+        System.out.println("Buffalo:");
+        Buffalo.makeSound();
+        Buffalo.eat();
     }
 }
