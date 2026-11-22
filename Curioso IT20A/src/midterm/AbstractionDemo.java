@@ -38,4 +38,21 @@ class Cat extends Animal {
     }
 }
 
+public class AbstractionDemo {
 
+    public static void main(String[] args) {
+
+        Animal dog = new Dog();
+        Animal cat = new Cat();
+
+        System.out.println("DOG:");
+        dog.makeSound();
+        dog.eat();
+
+        System.out.println();
+
+        System.out.println("CAT:");
+        cat.makeSound();
+        cat.eat();
+    }
+}
