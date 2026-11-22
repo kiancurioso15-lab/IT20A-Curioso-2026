@@ -49,17 +49,17 @@ The program shows how different animals make sounds.
 It contains three classes:
 
 - **Animal** – Abstract parent class.
-- **Dog** – Makes a barking sound.
-- **Cat** – Makes a meowing sound.
+- **Sheep** – Makes a barking sound.
+- **Buffalo** – Makes a meowing sound.
 
 How Abstraction Works
 
 - **Abstract Class:** Animal
 - **Abstract Method:** makeSound()
 - **Regular Method:** eat()
-- **Child Classes:** Dog and Cat
+- **Child Classes:** Sheep and Buffalo
 
-The Dog and Cat classes provide their own implementation of the `makeSound()` method.
+The Sheep and Buffalo classes provide their own implementation of the `makeSound()` method.
 
 5. Difference Between Polymorphism and Abstraction
 
