@@ -25,3 +25,16 @@ class Drum extends MusicalInstrument {
     }
 }
 
+
+public class PolymorphismDemo {
+    public static void main(String[] args) {
+
+        MusicalInstrument instrument1 = new Guitar();
+        MusicalInstrument instrument2 = new Piano();
+        MusicalInstrument instrument3 = new Drum();
+
+        instrument1.play();
+        instrument2.play();
+        instrument3.play();
+    }
+}
