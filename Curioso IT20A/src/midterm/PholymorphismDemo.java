@@ -10,3 +10,11 @@ class Guitar extends MusicalInstrument {
     }
 }
 
+
+class Piano extends MusicalInstrument {
+    @Override
+    public void play() {
+        System.out.println("The piano plays beautiful melodies.");
+    }
+}
+
