@@ -21,3 +21,11 @@ class Table extends Furniture {
     }
 }
 
+class Cabinet extends Furniture {
+
+    @Override
+    public void use() {
+        System.out.println("The cabinet is used for storing items.");
+    }
+}
+
