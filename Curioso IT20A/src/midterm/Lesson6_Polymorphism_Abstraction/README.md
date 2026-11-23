@@ -1,67 +1,54 @@
 Java OOP Activities
-
 1. Musical Instrument Program
+Unsa ang Gibuhat sa Program?
 
-What the Program Does?
+Kini nga program nagpakita sa lain-laing sounds nga gihimo sa musical instruments.
 
-The program shows the different sounds produced by musical instruments.
-
-It contains four classes:
-
-- **MusicalInstrument** – Parent class.
-- **Guitar** – Produces strumming sounds.
-- **Piano** – Produces melodies.
-- **Drum** – Produces rhythmic beats.
-- **PolymorphismDemo** – Runs the program.
-
+Adunay lima ka classes:
+- MusicalInstrument – Parent class.
+- Guitar – Naghimo og strumming sound.
+- Piano – nagpa play og melody.
+- Drum – Naghimo og beats.
+- PolymorphismDemo – Mao ang modagan sa program.
 2. Polymorphism
 
-Polymorphism means one method can have different behaviors.
+Ang Polymorphism nagpasabot nga ang usa ka method mahimong adunay lain-laing buhat depende sa object.
 
-In this program:
-
-- **Parent Class:** MusicalInstrument
-- **Child Classes:** Guitar, Piano, and Drum
-- **Overridden Method:** play()
-
-Each instrument has its own version of the `play()` method.
-
+Sa kini nga program:
+- Parent Class: MusicalInstrument
+- Child Classes: Guitar, Piano, ug Drum
+- Overridden Method: play()
+Ang matag instrument naay adunay kaugalingong sound kung tawagon ang play() method.
 3. Abstraction
+Ang Abstraction nagpasabot nga gitago ang uban nga details ug gipakita lang ang importante nga parts.
 
-Abstraction means hiding details and showing only important parts.
+Sa kini nga program:
+- Abstract Class: MusicalInstrument
+- Abstract Method: play()
+- Child Classes: Guitar, Piano, ug Drum
+Ang matag instrument adunay kaugalingong paagi sa paggamit sa play() method.
 
-To apply abstraction to this program:
-
-- **Abstract Class:** MusicalInstrument
-- **Abstract Method:** play()
-- **Implementation:** Guitar, Piano, and Drum provide their own `play()` methods.
-
-**Note:** The original MusicalInstrument program does not use abstraction yet.
-
----
+Note: Ang original MusicalInstrument program wala pa naggamit og Abstraction.
 
 4. AbstractionDemo Program
 
-What the Program Does
+Unsa ang Gibuhat sa Program?
 
-The program shows how different animals make sounds.
+Kini nga program nagpakita sa lain-laing sounds nga gihimo sa mga animals.
 
-It contains three classes:
+Adunay tulo ka classes:
+- Animal – Parent class.
+- Sheep – Naghimo sa iyang kaugalingong animal sound.
+- Buffalo – Naghimo usab sa iyang kaugalingong animal sound.
+Giunsa Paggamit ang Abstraction?
+- Abstract Class: Animal
+- Abstract Method: makeSound()
+- Regular Method: eat()
+- Child Classes: Sheep ug Buffalo
+Ang Sheep ug Buffalo adunay kaugalingong version sa makeSound() method.
 
-- **Animal** – Abstract parent class.
-- **Sheep** – Makes a barking sound.
-- **Buffalo** – Makes a meowing sound.
+5. Difference Between Polymorphism and Abstraction.
 
-How Abstraction Works
-
-- **Abstract Class:** Animal
-- **Abstract Method:** makeSound()
-- **Regular Method:** eat()
-- **Child Classes:** Sheep and Buffalo
-
-The Sheep and Buffalo classes provide their own implementation of the `makeSound()` method.
-
-5. Difference Between Polymorphism and Abstraction
-
-- **Polymorphism:** One method can have different behaviors.
-- **Abstraction:** Hides unnecessary details and shows important information.
+- Polymorphism – Ang usa ka method mahimong adunay lain-laing buhat depende sa object.
+- Abstraction – Gitago ang dili kaayo importante nga details ug gipakita lang ang kinahanglan masabtan.
+Sa simple nga pagkasulti, ang Polymorphism kay about sa lain-laing actions, samtang ang Abstraction kay about sa pagtago sa unnecessary details aron mas simple ang program.
