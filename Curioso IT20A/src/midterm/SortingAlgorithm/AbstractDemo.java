@@ -25,21 +25,3 @@ class Table extends Furniture {
     }
 }
 
-public class AbstractionDemo {
-
-    public static void main(String[] args) {
-
-        Furniture chair = new Chair();
-        Furniture table = new Table();
-
-        System.out.println("Chair:");
-        chair.describe();
-        chair.use();
-
-        System.out.println();
-
-        System.out.println("Table:");
-        table.describe();
-        table.use();
-    }
-}
