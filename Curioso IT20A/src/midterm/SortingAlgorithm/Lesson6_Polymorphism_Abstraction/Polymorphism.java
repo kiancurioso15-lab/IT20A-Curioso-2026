@@ -13,3 +13,11 @@ class Chair extends Furniture {
     }
 }
 
+class Table extends Furniture {
+
+    @Override
+    public void use() {
+        System.out.println("The table is used for placing things.");
+    }
+}
+
