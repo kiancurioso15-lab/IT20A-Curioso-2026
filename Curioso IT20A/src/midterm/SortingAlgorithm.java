@@ -80,4 +80,28 @@ public class SortingAlgorithms {
             64, 25, 12, 22, 11, 90, 34, 5, 78, 43
         };
 
-        
+         // Create separate copies ni!
+        int[] bubbleArray = Arrays.copyOf(originalArray, originalArray.length);
+        int[] selectionArray = Arrays.copyOf(originalArray, originalArray.length);
+        int[] insertionArray = Arrays.copyOf(originalArray, originalArray.length);
+
+        // Display original array ni!
+        System.out.println("Original Array:");
+        System.out.println(Arrays.toString(originalArray));
+
+        // Bubble Sort ni!
+        bubbleSort(bubbleArray);
+        System.out.println("\nBubble Sort Result:");
+        System.out.println(Arrays.toString(bubbleArray));
+
+        // Selection Sort ni!
+        selectionSort(selectionArray);
+        System.out.println("\nSelection Sort Result:");
+        System.out.println(Arrays.toString(selectionArray));
+
+        // Insertion Sort ni!
+        insertionSort(insertionArray);
+        System.out.println("\nInsertion Sort Result:");
+        System.out.println(Arrays.toString(insertionArray));
+    }
+}
